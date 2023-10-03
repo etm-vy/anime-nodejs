@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const url = 'mongodb://127.0.0.1:27017/animes';
+const url = 'mongodb://[admin:ANCcvl12114@]node13644-my-anime.us.reclaim.cloud/animes';
 
 mongoose.connect(url, {useUnifiedTopology: true, useNewUrlParser: true});
 const db = mongoose.connection; 
